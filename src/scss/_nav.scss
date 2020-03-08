@@ -9,13 +9,19 @@
     -webkit-margin-before: 0;
     margin-left: 50px;
   }
-  a:hover {
-    text-decoration: underline;
-  }
   a:link {
-    color: purple;
+    color: $primary-color;
+    text-decoration: none;
   }
   a:visited {
-    color: purple;
+    color: $primary-color;
+    text-decoration: none;
+  } 
+  a:hover {
+    text-decoration: underline;
+    color: $primary-color;
+  }
+  a:active {
+    color: $primary-color;
   }
 }

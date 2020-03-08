@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   font-family: Arial;
-  color: black;
+  color: rgb(31, 29, 29);
 }
 
 p, a {
@@ -15,7 +15,8 @@ img {
 }
 
 ul {
-  list-style: none;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .container {
